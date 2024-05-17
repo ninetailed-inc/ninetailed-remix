@@ -1,3 +1,4 @@
+import { NinetailedProvider } from "@ninetailed/experience.js-react";
 import {
   Links,
   Meta,
@@ -15,10 +16,16 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
+      dd .
       <body>
-        {children}
-        <ScrollRestoration />
-        <Scripts />
+        <NinetailedProvider
+          clientId="3c00cace-cacb-4086-807b-c97b4453e197"
+          environment="b2b-demo"
+        >
+          {children}
+          <ScrollRestoration />
+          <Scripts />
+        </NinetailedProvider>
       </body>
     </html>
   );

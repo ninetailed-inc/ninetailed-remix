@@ -13,7 +13,7 @@
   "dependencies": {
     "@ninetailed/experience.js-react": "^7.6.1",
     "@remix-run/node": "^2.9.2",
-    "@remix-run/react": "^2.9.2",
+    "@remix-run/react": "^2.17.5",
     "@remix-run/serve": "^2.9.2",
     "isbot": "^4.1.0",
     "react": "^18.2.0",
